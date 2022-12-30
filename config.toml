@@ -1,0 +1,4 @@
+baseURL = 'https://ahlen.dev/'
+languageCode = 'en-us'
+title = 'Oscar Ahlén'
+theme = 'default'

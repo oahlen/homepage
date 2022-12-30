@@ -1,0 +1,12 @@
+name = "Default"
+license = "MIT"
+licenselink = "https://github.com/oahlen/homepage/blob/master/LICENSE"
+description = ""
+homepage = "https://ahlen.dev/"
+tags = []
+features = []
+min_version = "0.41.0"
+
+[author]
+  name = "Oscar Ahlén"
+  homepage = "https://ahlen.dev/"
