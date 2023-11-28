@@ -1,0 +1,13 @@
+{{ define "main" }}
+
+<div class="bg-slate-50">
+    <div class="max-w-lg mx-auto flex justify-center">
+        <div class="p-6">Hello World!!</div>
+    </div>
+</div>
+{{ .Content }}
+{{ range site.RegularPages }}
+<h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+{{ .Summary }}
+{{ end }}
+{{ end }}

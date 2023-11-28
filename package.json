@@ -1,0 +1,15 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "My personal homepage and resume",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./assets/css/input.css -o ./assets/css/main.css --jit --minify",
+    "tailwind-dev": "npx tailwindcss -i ./assets/css/input.css -o ./assets/css/main.css --jit --watch"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  }
+}
