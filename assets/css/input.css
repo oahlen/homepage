@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+h1 {
+    font-size: 2rem;
+}
+
+p {
+    /* @apply mb-5; */
+}
+
+.my-container {
+    @apply px-5 mx-auto lg:px-0 max-w-5xl;
+}
+
+.hover-button {
+    @apply p-3 rounded-md hover:bg-light-300 dark:hover:bg-dark-300 active:bg-light-400 active:dark:bg-dark-400;
+}
