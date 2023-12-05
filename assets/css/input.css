@@ -2,16 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-h1 {
-    font-size: 2rem;
-}
-
-p {
-    /* @apply mb-5; */
-}
-
 .my-container {
     @apply px-5 mx-auto lg:px-0 max-w-5xl;
+}
+
+.experience-grid {
+    grid-template-columns: auto auto;
 }
 
 .hover-button {

@@ -1,6 +1,6 @@
 <div class="bg-light-200 dark:bg-dark-200 py-3">
-    <div class="my-container flex justify-between">
-        <h1>{{ site.Title }}</h1>
+    <div class="my-container flex items-center justify-between">
+        <h1 class="text-3xl">{{ site.Title }}</h1>
         <div class="flex">
             <button id="theme-switcher" class="hover-button">
                 <svg class="fill-light-1100 dark:fill-dark-1100" xmlns="http://www.w3.org/2000/svg" width="24"
@@ -14,6 +14,10 @@
 
             <a class="hover-button" href="https://www.linkedin.com/in/oscar-ahlen/">
                 {{ partial "svg/linkedin.html" }}
+            </a>
+
+            <a class="hover-button" href="mailto:contact@ahlen.dev">
+                {{ partial "svg/mail.html" }}
             </a>
         </div>
     </div>
