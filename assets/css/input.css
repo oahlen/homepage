@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+a {
+    @apply text-light-blue dark:text-dark-blue;
+}
+
 .my-container {
     @apply px-5 mx-auto lg:px-0 max-w-5xl;
 }
