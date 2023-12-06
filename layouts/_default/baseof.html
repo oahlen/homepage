@@ -1,21 +1,19 @@
-<!DOCTYPE html>
-<html id="root" class="light" lang="{{ or site.Language.LanguageCode site.Language.Lang }}"
-    dir="{{ or site.Language.LanguageDirection `ltr` }}">
-
-<head>
+<!doctype html>
+<html
+  class="light"
+  id="root"
+  lang="{{ or site.Language.LanguageCode site.Language.Lang }}"
+  dir="{{ or site.Language.LanguageDirection `ltr` }}"
+>
+  <head>
     {{ partial "head.html" . }}
-</head>
+  </head>
 
-<body class="bg-light-100 dark:bg-dark-100 text-light-1100 dark:text-dark-1100">
-    <header>
-        {{ partial "header.html" . }}
-    </header>
-    <main>
-        {{ block "main" . }}{{ end }}
-    </main>
-    <footer>
-        {{ partial "footer.html" . }}
-    </footer>
-</body>
-
+  <body
+    class="bg-light-100 text-light-1100 dark:bg-dark-100 dark:text-dark-1100"
+  >
+    <header>{{ partial "header.html" . }}</header>
+    <main>{{ block "main" . }}{{ end }}</main>
+    <footer>{{ partial "footer.html" . }}</footer>
+  </body>
 </html>

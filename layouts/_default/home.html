@@ -1,47 +1,59 @@
 {{ define "main" }}
 
 <div class="my-container my-10">
-    <div class="flex justify-center mb-10">
-        <img class="w-1/2" src="/profile.jpg" style="border-radius:50%;">
-    </div>
+  <div class="mb-10 flex justify-center">
+    <img class="w-1/2" src="/profile.jpg" style="border-radius: 50%" />
+  </div>
 
-    <div class="max-w-2xl mx-auto text-center mb-16">
-        {{ .Content }}
-    </div>
+  <div class="mx-auto mb-16 max-w-2xl text-center">{{ .Content }}</div>
 
-    <section id="experiences" class="flex flex-col max-w-4xl mx-auto gap-8 items-center">
-        {{ with .Site.GetPage "/experiences" }}
-        <h1 class="text-3xl">{{ .Title }}</h1>
+  <section
+    class="mx-auto flex max-w-4xl flex-col items-center gap-8"
+    id="experiences"
+  >
+    {{ with .Site.GetPage "/experiences" }}
+    <h1 class="text-3xl">{{ .Title }}</h1>
 
-        {{ range .Pages }}
-        <div class="experience-grid bg-light-200 dark:bg-dark-200 rounded-lg gap-5 md:gap-x-5 md:gap-y-0 p-4">
-            <i class="hidden md:block">
-                {{ $logo := .Params.logo }}
-                {{ partial $logo . }}
-            </i>
-            <div class="flex flex-col justify-center gap-3">
-                <div class="flex flex-col md:flex-row md:justify-between md:items-center">
-                    <a class="text-2xl font-bold" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-                    <a class="text-light-1000 dark:text-dark-1000 text-lg font-bold" href="{{ .Params.link }}">{{ .Params.company }}</a>
-                </div>
-                <p class="text-light-900 dark:text-dark-900 font-semibold">{{ .Params.start }} - {{ .Params.end }}</p>
-            </div>
-            <div class="row-start-2 col-start-2">
-                {{ .Content }}
-
-                <div class="flex flex-wrap mt-5 mb-3 gap-3">
-                    {{ range .Params.tags }}
-                    <span
-                        class="bg-light-blue dark:bg-dark-blue text-light-100 dark:text-dark-100 font-semibold rounded-lg px-3 py-2">
-                        {{ . }}
-                    </span>
-                    {{ end }}
-                </div>
-            </div>
+    {{ range .Pages }}
+    <div
+      class="experience-grid gap-5 rounded-lg bg-light-200 p-4 dark:bg-dark-200 md:gap-x-5 md:gap-y-0"
+    >
+      <i class="hidden md:block">
+        {{ $logo := .Params.logo }} {{ partial $logo . }}
+      </i>
+      <div class="flex flex-col justify-center gap-3">
+        <div
+          class="flex flex-col md:flex-row md:items-center md:justify-between"
+        >
+          <a class="text-2xl font-bold" href="{{ .RelPermalink }}"
+            >{{ .LinkTitle }}</a
+          >
+          <a
+            class="text-lg font-bold text-light-1000 dark:text-dark-1000"
+            href="{{ .Params.link }}"
+            >{{ .Params.company }}</a
+          >
         </div>
-        {{ end }}
-        {{ end }}
-    </section>
+        <p class="font-semibold text-light-900 dark:text-dark-900">
+          {{ .Params.start }} - {{ .Params.end }}
+        </p>
+      </div>
+      <div class="col-start-2 row-start-2">
+        {{ .Content }}
+
+        <div class="mb-3 mt-5 flex flex-wrap gap-3">
+          {{ range .Params.tags }}
+          <span
+            class="rounded-lg bg-light-blue px-3 py-2 font-semibold text-light-100 dark:bg-dark-blue dark:text-dark-100"
+          >
+            {{ . }}
+          </span>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+    {{ end }} {{ end }}
+  </section>
 </div>
 
 {{ end }}

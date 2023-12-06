@@ -3,28 +3,29 @@
 @tailwind utilities;
 
 a {
-    @apply text-light-blue dark:text-dark-blue;
+  @apply text-light-blue dark:text-dark-blue;
 }
 
 .my-container {
-    @apply px-5 mx-auto lg:px-0 max-w-5xl;
+  @apply mx-auto max-w-5xl px-5 lg:px-0;
 }
 
 .experience-grid {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    a {
-        font-weight: bold;
-    }
+  a {
+    font-weight: bold;
+  }
 }
 
 @media (min-width: 768px) {
-.experience-grid {
+  .experience-grid {
     display: grid;
     grid-template-columns: auto auto;
-}}
+  }
+}
 
 .hover-button {
-    @apply p-3 rounded-md hover:bg-light-300 dark:hover:bg-dark-300 active:bg-light-400 active:dark:bg-dark-400;
+  @apply rounded-md p-3 hover:bg-light-300 active:bg-light-400 dark:hover:bg-dark-300 active:dark:bg-dark-400;
 }

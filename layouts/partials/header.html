@@ -1,25 +1,32 @@
-<div class="bg-light-200 dark:bg-dark-200 py-3">
-    <div class="my-container flex items-center justify-between">
-        <h1 class="text-3xl">{{ site.Title }}</h1>
-        <div class="flex">
-            <button id="theme-switcher" class="hover-button">
-                <svg class="fill-light-1100 dark:fill-dark-1100" xmlns="http://www.w3.org/2000/svg" width="24"
-                    height="24" viewBox="0 -960 960 960">
-                </svg>
-            </button>
+<div class="bg-light-200 py-3 dark:bg-dark-200">
+  <div class="my-container flex items-center justify-between">
+    <h1 class="text-3xl">{{ site.Title }}</h1>
+    <div class="flex">
+      <button class="hover-button" id="theme-switcher">
+        <svg
+          class="fill-light-1100 dark:fill-dark-1100"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 -960 960 960"
+        ></svg>
+      </button>
 
-            <a class="hover-button hidden md:block" href="https://github.com/oahlen">
-                {{ partial "svg/github.html" }}
-            </a>
+      <a class="hover-button hidden md:block" href="https://github.com/oahlen">
+        {{ partial "svg/github.html" }}
+      </a>
 
-            <a class="hover-button hidden md:block" href="https://www.linkedin.com/in/oscar-ahlen/">
-                {{ partial "svg/linkedin.html" }}
-            </a>
+      <a
+        class="hover-button hidden md:block"
+        href="https://www.linkedin.com/in/oscar-ahlen/"
+      >
+        {{ partial "svg/linkedin.html" }}
+      </a>
 
-            <a class="hover-button hidden md:block" href="mailto:contact@ahlen.dev">
-                {{ partial "svg/mail.html" }}
-            </a>
-        </div>
+      <a class="hover-button hidden md:block" href="mailto:contact@ahlen.dev">
+        {{ partial "svg/mail.html" }}
+      </a>
     </div>
+  </div>
 </div>
 {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
