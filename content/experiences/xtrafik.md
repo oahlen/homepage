@@ -5,7 +5,8 @@ date = "2020-01-01"
 start = "Janurari 2020"
 end = "Augusti 2020"
 logo = "svg/code.html"
-tech = ["Azure", "C#", "Kubernetes", "Mikrotjänster", "SQL Server"]
+tech = ["Azure", "C#", "Kubernetes", "SQL Server"]
+methods = ["Mikrotjänster"]
 link = "https://xtrafik.se/"
 +++
 

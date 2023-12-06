@@ -5,7 +5,8 @@ date = "2021-03-01"
 start = "Mars 2021"
 end = "Augusti 2021"
 logo = "svg/architect.html"
-tech = ["Arkitektur", "Azure", "C#", "Kubernetes", "Mikrotjänster"]
+tech = ["Arkitektur", "Azure", "C#", "Kubernetes"]
+methos = ["Mikrotjänster"]
 link = "https://malardalstrafik.se/"
 +++
 

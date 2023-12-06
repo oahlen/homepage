@@ -1,7 +1,7 @@
 +++
 title = "Systemutvecklare"
 company = "Läkemedelsverket"
-date = "2014-01-01"
+date = "2014-06-01"
 start = "Juni 2014"
 end = "Mars 2016"
 logo = "svg/code.html"

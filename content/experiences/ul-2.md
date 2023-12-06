@@ -1,11 +1,12 @@
 +++
 title = "Systemutvecklare"
 company = "Upplands lokaltrafik"
-date = "2020-01-01"
+date = "2020-08-01"
 start = "Augusti 2020"
 end = "Mars 2021"
 logo = "svg/code.html"
-tech = ["Azure", "C#", "Kubernetes", "Mikrotjänster", "SQL Server"]
+tech = ["Azure", "C#", "Kubernetes", "SQL Server"]
+methods = ["Mikrotjänster"]
 link = "https://ul.se/"
 +++
 
