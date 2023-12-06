@@ -1,11 +1,12 @@
 +++
 title = "Arkitekt"
-company = "Mälartåg"
+company = "Mälardalstrafik"
 date = "2021-03-01"
 start = "Mars 2021"
 end = "Augusti 2021"
 logo = "svg/architect.html"
 tags = ["Arkitektur", "Azure", "C#", "Kubernetes", "Mikrotjänster"]
+link = "https://malardalstrafik.se/"
 +++
 
 Utveckling av en helt ny app och biljettsystem för att underlätta för tågresenärer i Mälardalen. Krav ställdes på systemet att implementera BoB standarden (Biljett och betalning) för framtida integrationer med andra regioner och trafikhuvudmän.

@@ -11,8 +11,19 @@ a {
 }
 
 .experience-grid {
-    grid-template-columns: auto auto;
+    display: flex;
+    flex-direction: column;
+
+    a {
+        font-weight: bold;
+    }
 }
+
+@media (min-width: 768px) {
+.experience-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+}}
 
 .hover-button {
     @apply p-3 rounded-md hover:bg-light-300 dark:hover:bg-dark-300 active:bg-light-400 active:dark:bg-dark-400;

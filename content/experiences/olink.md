@@ -6,6 +6,7 @@ start = "Augusti 2021"
 end = "Nuvarande"
 logo = "svg/team.html"
 tags = ["C#", "Rust", "Linux", "AWS"]
+link = "https://olink.com/"
 +++
 
 Tech lead och senior systemutvecklare på Olinks högprestandaplattform för proteinanalys: [Explore](https://olink.com/products-services/exploreht/). Uppdraget omfattar utveckling och förvaltning av en molnbaserad analysplattform i AWS och en portfölj av olika beräkningskomponenter i C# och Rust.
