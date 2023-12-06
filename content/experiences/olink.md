@@ -5,7 +5,7 @@ date = "2021-08-01"
 start = "Augusti 2021"
 end = "Nuvarande"
 logo = "svg/team.html"
-tags = ["C#", "Rust", "Linux", "AWS"]
+tech = ["C#", "Rust", "Linux", "AWS"]
 link = "https://olink.com/"
 +++
 

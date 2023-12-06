@@ -27,6 +27,7 @@ module.exports = {
         1000: "#353a3f",
         1100: "#212529",
         blue: "#1862ab",
+        orange: "#9f4700",
       },
       dark: {
         100: "#0f1216",
@@ -41,6 +42,7 @@ module.exports = {
         1000: "#b5bbc0",
         1100: "#d8dce0",
         blue: "#62abf3",
+        orange: "#f88a10",
       },
     },
     extend: {},

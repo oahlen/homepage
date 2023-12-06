@@ -42,9 +42,15 @@
         {{ .Content }}
 
         <div class="mb-3 mt-5 flex flex-wrap gap-3">
-          {{ range .Params.tags }}
+          {{ range .Params.tech }}
           <span
             class="rounded-lg bg-light-blue px-3 py-2 font-semibold text-light-100 dark:bg-dark-blue dark:text-dark-100"
+          >
+            {{ . }}
+          </span>
+          {{ end }} {{ range .Params.methods }}
+          <span
+            class="rounded-lg bg-light-orange px-3 py-2 font-semibold text-light-100 dark:bg-dark-orange dark:text-dark-100"
           >
             {{ . }}
           </span>
