@@ -1,4 +1,6 @@
 baseURL = 'https://ahlen.dev/'
-languageCode = 'en-us'
 title = 'ahlen.dev'
+languageCode = 'sv'
 disableKinds = ["taxonomy"]
+
+defaultContentLanguage = 'sv'
