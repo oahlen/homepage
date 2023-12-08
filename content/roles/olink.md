@@ -1,6 +1,6 @@
 +++
 title = "Tech lead"
-slug = "8"
+slug = "9"
 company = "Olink Proteomics"
 date = "2021-08-01"
 start = "Augusti 2021"

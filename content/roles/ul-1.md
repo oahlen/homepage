@@ -1,12 +1,13 @@
 +++
 title = "Systemutvecklare"
-slug = "4"
+slug = "5"
 company = "Upplands lokaltrafik"
 date = "2018-05-01"
 start = "Maj 2018"
 end = "December 2019"
 logo = "svg/code.html"
-tech = ["Azure", "C#", "Kubernetes", "SQL Server", "Linux", "Ansible"]
+tech = ["C#", "SQL Server", "Linux", "Python", "Ansible"]
+platforms = ["Azure", "Kubernetes"]
 methods = ["Mikrotjänster"]
 link = "https://ul.se/"
 +++

@@ -1,12 +1,13 @@
 +++
 title = "Systemutvecklare"
-slug = "5"
+slug = "6"
 company = "X-trafik"
 date = "2020-01-01"
 start = "Janurari 2020"
 end = "Augusti 2020"
 logo = "svg/code.html"
-tech = ["Azure", "C#", "Kubernetes", "SQL Server"]
+tech = ["C#", "SQL Server"]
+platforms = ["Azure", "Kubernetes"]
 methods = ["Mikrotjänster"]
 link = "https://xtrafik.se/"
 +++

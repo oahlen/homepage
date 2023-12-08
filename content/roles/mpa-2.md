@@ -2,24 +2,19 @@
 title = "Systemutvecklare"
 slug = "3"
 company = "Läkemedelsverket"
-date = "2016-09-01"
-start = "September 2016"
-end = "December 2019"
+date = "2014-06-01"
+start = "Juni 2014"
+end = "Mars 2016"
 logo = "svg/code.html"
-tech = ["Java", "Documentum", "C#", "Angular", "Neo4j"]
+tech = ["Java", "Java Swing"]
+methods = ["Agil utveckling"]
 link = "https://www.lakemedelsverket.se/"
 +++
 
-Införandet av ett genomgripande ärendehanteringssystem med processtöd i Documentum för godkännanden av läkemedel kallat STEP.
+Förbättring av arbetssätt runt registrering och diarieföring av läkemedelsansökningar.
+Oscar utvecklade en skräddarsydd Java-applikation kallad ASAP för hantering av regulatoriska dokument och ansökningar med syfte att optimera tidigare arbetssätt.
+Arbetet genomfördes agilt genom iterativ utveckling med feedback i ett nära samarbete med användarna i verksamheten.
 
 {{< break >}}
 
-Oscar anpassade och vidareutvecklade diarieföringsverktyget ASAP med hjälp av sin tidigare verksamhetskunskap för att möta kraven det nya ärendesystemet ställde på informationshanteringen.
-I samband med detta hade Oscar en central roll i design och utveckling av ett läsverktyg för elektroniska läkemedelsansökningar på eCTD-formatet.
-Verktyget är en webbapplikation baserad på .Net och Angular och är det första i sitt slag bland europeiska läkemedelsmyndigheter.
-
-{{< break >}}
-
-Oscar ansvarade också för systemintegrationer som omfattade design och implementation av webbtjänster i Java och Spring för att synkronisera information från ett äldre ärende- och produktregister till Documentum-plattformen.
-Resultatet var överväldigande positivt och har förändrat det dagliga arbetet för 300+ medarbetare på enheterna inom informationshantering, farmaci och regulatoriska ärenden.
-Informationshantering och kvalitet vart också mycket förbättrat eftersom stora delar av registreringsprocessen kunde automatiseras.
+Resultatet blev mycket uppskattat då många manuella moment och felkällor kunde elimineras och de positiva effekterna kunde tydligt ses i medarbetarundersökningar för den aktuella enheten under 2016.
