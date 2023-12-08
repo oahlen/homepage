@@ -1,5 +1,6 @@
 +++
 title = "Systemutvecklare"
+slug = "5"
 company = "X-trafik"
 date = "2020-01-01"
 start = "Janurari 2020"

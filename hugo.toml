@@ -4,3 +4,4 @@ languageCode = 'sv'
 disableKinds = ["taxonomy"]
 
 defaultContentLanguage = 'sv'
+# defaultContentLanguageInSubdir = true

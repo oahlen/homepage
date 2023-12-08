@@ -1,5 +1,6 @@
 +++
 title = "Systemutvecklare"
+slug = "2"
 company = "Läkemedelsverket"
 date = "2014-06-01"
 start = "Juni 2014"

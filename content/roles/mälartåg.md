@@ -1,5 +1,6 @@
 +++
 title = "Arkitekt"
+slug = "7"
 company = "Mälardalstrafik"
 date = "2021-03-01"
 start = "Mars 2021"

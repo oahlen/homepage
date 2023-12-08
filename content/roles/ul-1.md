@@ -1,5 +1,6 @@
 +++
 title = "Systemutvecklare"
+slug = "4"
 company = "Upplands lokaltrafik"
 date = "2018-05-01"
 start = "Maj 2018"
