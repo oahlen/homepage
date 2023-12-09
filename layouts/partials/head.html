@@ -4,4 +4,7 @@
   {{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title
   site.Title }}{{ end }}
 </title>
+<meta name="description" content="Portfolio website of Oscar Ahlén" />
+<meta name="keywords" content="Software Engineering, Data Science, Coding" />
+<meta name="author" content="Oscar Ahlén" />
 {{ partialCached "head/css.html" . }} {{ partialCached "head/js.html" . }}
