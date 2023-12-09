@@ -4,17 +4,8 @@
     <p>Copyright {{ now.Year }}. All rights reserved.</p>
 
     <div class="flex items-center justify-center">
-      <a class="hover-button" href="https://github.com/oahlen">
-        {{ partial "svg/github.html" }}
-      </a>
-
-      <a class="hover-button" href="https://www.linkedin.com/in/oscar-ahlen/">
-        {{ partial "svg/linkedin.html" }}
-      </a>
-
-      <a class="hover-button" href="mailto:contact@ahlen.dev">
-        {{ partial "svg/mail.html" }}
-      </a>
+      {{ partial "links/github.html" }} {{ partial "links/linkedin.html" }} {{
+      partial "links/mail.html" }}
     </div>
   </div>
 </div>

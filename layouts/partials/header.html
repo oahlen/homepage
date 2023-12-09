@@ -20,20 +20,12 @@
         ></svg>
       </button>
 
-      <a class="hover-button hidden md:block" href="https://github.com/oahlen">
-        {{ partial "svg/github.html" }}
-      </a>
-
-      <a
-        class="hover-button hidden md:block"
-        href="https://www.linkedin.com/in/oscar-ahlen/"
-      >
-        {{ partial "svg/linkedin.html" }}
-      </a>
-
-      <a class="hover-button hidden md:block" href="mailto:contact@ahlen.dev">
-        {{ partial "svg/mail.html" }}
-      </a>
+      <!-- prettier-ignore -->
+      {{ partial "links/github.html" (dict "hide" true) }}
+      <!-- prettier-ignore -->
+      {{ partial "links/linkedin.html" (dict "hide" true) }}
+      <!-- prettier-ignore -->
+      {{ partial "links/mail.html" (dict "hide" true)}}
     </div>
   </div>
 </div>
