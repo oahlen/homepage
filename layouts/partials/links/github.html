@@ -1,12 +1,9 @@
-<!-- prettier-ignore -->
 <a
   aria-label="Go to GitHub page"
-  {{ $hide :=".hide" }}
-  {{ if $hide }}
-  class="hover-button hidden md:block"
-  {{ else }}
-  class="hover-button"
-  {{ end }}
+  name="{{"
+  .name
+  }}
+  class="hover-button {{ .class }}"
   href="https://github.com/oahlen"
 >
   <svg

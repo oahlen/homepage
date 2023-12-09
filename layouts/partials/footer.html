@@ -4,8 +4,12 @@
     <p>Copyright {{ now.Year }}. All rights reserved.</p>
 
     <div class="flex items-center justify-center">
-      {{ partial "links/github.html" }} {{ partial "links/linkedin.html" }} {{
-      partial "links/mail.html" }}
+      <!-- prettier-ignore -->
+      {{ partial "links/github.html" (dict "name" "github-link-2") }}
+      <!-- prettier-ignore -->
+      {{ partial "links/linkedin.html" (dict "name" "linkedin-link-2") }}
+      <!-- prettier-ignore -->
+      {{ partial "links/mail.html" (dict "name" "mail-link-2") }}
     </div>
   </div>
 </div>
