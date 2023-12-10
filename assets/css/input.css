@@ -13,10 +13,10 @@ a {
 .experience-grid {
   display: flex;
   flex-direction: column;
+}
 
-  a {
-    font-weight: bold;
-  }
+.experience-grid a {
+  font-weight: bold;
 }
 
 @media (min-width: 768px) {
