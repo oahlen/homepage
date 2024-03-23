@@ -1,5 +1,5 @@
 baseURL = 'https://ahlen.dev/'
-title = 'ahlen.dev'
+title = 'Oscar Ahlén'
 languageCode = 'sv'
 disableKinds = ["taxonomy"]
 
