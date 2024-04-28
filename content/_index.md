@@ -1,4 +1,4 @@
-Certifierad lösningsarkitekt och systemutvecklare med över 8 års erfarenhet i branschen. Har ett helhetsperspektiv för lösningars funktion och arkitektur och som genomsyras av en datavetenskaplig prägel och tillförlitliga leveranser. Brinner framförallt för Open Source, Linux och det man gör inom Cloud Native Computing Foundation. Gillar att lära och bli lärd av andra och värdesätter att var del av team som skyddar, uppmuntrar och utvecklar varandra.
+Certifierad lösningsarkitekt och systemutvecklare med över 8 års erfarenhet i branschen. Har ett helhetsperspektiv för lösningars funktion och arkitektur och som genomsyras av en datavetenskaplig prägel och tillförlitliga leveranser. Brinner framförallt för Open Source, Linux och det man gör inom Cloud Native Computing Foundation. Gillar att lära och bli lärd av andra och värdesätter att var del av team som tar hand om, uppmuntrar och utvecklar varandra.
 
 {{< break >}}
 

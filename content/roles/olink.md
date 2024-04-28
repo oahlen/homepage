@@ -10,7 +10,7 @@ tech = ["C#", "Rust", "Linux", "Amazon Web Services"]
 link = "https://olink.com/"
 +++
 
-Tech lead och senior systemutvecklare på Olinks högprestandaplattform för proteinanalys: [Explore](https://olink.com/products-services/exploreht/). Uppdraget omfattar utveckling och förvaltning av en molnbaserad analysplattform i AWS och en portfölj av olika beräkningskomponenter i C# och Rust.
+Tech lead och senior systemutvecklare på Olinks highplex-plattform för proteinanalys: [Explore](https://olink.com/products-services/exploreht/). Uppdraget omfattar utveckling och förvaltning av en molnbaserad analysplattform i AWS och en portfölj av olika beräkningskomponenter i C# och Rust.
 
 {{< break >}}
 
