@@ -1,6 +1,72 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+@utility container {
+  margin-inline: auto;
+  padding-inline: 1rem;
+  @media (width >= theme(--breakpoint-sm)) {
+    padding-inline: 10rem;
+  }
+  @media (width >= theme(--breakpoint-lg)) {
+    padding-inline: 4rem;
+  }
+  @media (width >= theme(--breakpoint-xl)) {
+    padding-inline: 10rem;
+  }
+  @media (width >= theme(--breakpoint-2xl)) {
+    padding-inline: 12rem;
+  }
+}
+
+@theme {
+  --color-*: initial;
+  --color-light-100: #f8f9fa;
+  --color-light-200: #e9ecee;
+  --color-light-300: #dce0e4;
+  --color-light-400: #cfd4d9;
+  --color-light-500: #bfc6cd;
+  --color-light-600: #adb5bd;
+  --color-light-700: #939ba4;
+  --color-light-800: #727981;
+  --color-light-900: #51575e;
+  --color-light-1000: #353a3f;
+  --color-light-1100: #212529;
+  --color-light-blue: #1862ab;
+  --color-light-orange: #9f4700;
+
+  --color-dark-100: #0f1216;
+  --color-dark-200: #171b20;
+  --color-dark-300: #20262c;
+  --color-dark-400: #2c3239;
+  --color-dark-500: #39414a;
+  --color-dark-600: #4a535c;
+  --color-dark-700: #5f6871;
+  --color-dark-800: #778089;
+  --color-dark-900: #949ca3;
+  --color-dark-1000: #b5bbc0;
+  --color-dark-1100: #d8dce0;
+  --color-dark-blue: #62abf3;
+  --color-dark-orange: #f88a10;
+}
+
+/*
+  The default border color has changed to `currentcolor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentcolor);
+  }
+}
 
 a {
   @apply text-light-blue dark:text-dark-blue;
@@ -27,5 +93,5 @@ a {
 }
 
 .hover-button {
-  @apply rounded-md p-3 hover:bg-light-300 active:bg-light-400 dark:hover:bg-dark-300 active:dark:bg-dark-400;
+  @apply hover:bg-light-300 active:bg-light-400 dark:hover:bg-dark-300 dark:active:bg-dark-400 rounded-md p-3;
 }
