@@ -1,6 +1,6 @@
 baseURL = 'https://ahlen.dev/'
 title = 'Oscar Ahlén'
-languageCode = 'sv'
+locale = 'sv'
 disableKinds = ["taxonomy"]
 
 defaultContentLanguage = 'sv'
