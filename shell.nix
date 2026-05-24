@@ -10,6 +10,5 @@ pkgs.mkShell {
   packages = with pkgs; [
     hugo
     nodejs
-    nodePackages.npm
   ];
 }
