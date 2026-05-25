@@ -66,6 +66,10 @@ a {
   @apply text-light-blue dark:text-dark-blue;
 }
 
+h1 {
+   @apply text-light-1100 dark:text-dark-1100;
+}
+
 .my-container {
   @apply mx-auto max-w-5xl px-5 lg:px-0;
 }
