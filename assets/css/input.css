@@ -21,27 +21,27 @@
 
 @theme {
   --color-*: initial;
-  --color-light-50: #e6e7ed;
-  --color-light-100: #f0f1f4;
-  --color-light-200: #e6e7ed;
-  --color-light-300: #d7d9e2;
-  --color-light-400: #c8cbd8;
-  --color-light-900: #40434f;
-  --color-light-1000: #343b58;
-  --color-light-1100: #2b3048;
-  --color-light-blue: #2959aa;
-  --color-light-orange: #965027;
+  --color-light-100: #fafafa;
+  --color-light-200: #eef1f4;
+  --color-light-300: #e8ebf0;
+  --color-light-400: #e8ebf0;
+  --color-light-500: #dde2e7;
+  --color-light-800: #bac3cb;
+  --color-light-900: #8790a0;
+  --color-light-1000: #4b505b;
+  --color-light-blue: #5079be;
+  --color-light-orange: #be7e05;
 
-  --color-dark-50: #15161e;
-  --color-dark-100: #1a1b26;
-  --color-dark-200: #212433;
-  --color-dark-300: #292d40;
-  --color-dark-400: #414868;
-  --color-dark-900: #9aa5ce;
-  --color-dark-1000: #a9b1d6;
-  --color-dark-1100: #c0caf5;
-  --color-dark-blue: #7aa2f7;
-  --color-dark-orange: #ff9e64;
+  --color-dark-100: #24262a;
+  --color-dark-200: #2c2e34;
+  --color-dark-300: #33353f;
+  --color-dark-400: #363944;
+  --color-dark-500: #414550;
+  --color-dark-800: #535c6a;
+  --color-dark-900: #758094;
+  --color-dark-1000: #c5cdd9;
+  --color-dark-blue: #6cb6eb;
+  --color-dark-orange: #deb974;
 }
 
 /*
@@ -67,7 +67,7 @@ a {
 }
 
 h1 {
-   @apply text-light-1100 dark:text-dark-1100;
+  @apply text-light-1000 dark:text-dark-1000;
 }
 
 .my-container {
@@ -91,5 +91,5 @@ h1 {
 }
 
 .hover-button {
-  @apply hover:bg-light-300 active:bg-light-400 dark:hover:bg-dark-300 dark:active:bg-dark-400 rounded-md p-3;
+  @apply hover:bg-light-400 active:bg-light-500 dark:hover:bg-dark-400 dark:active:bg-dark-500 rounded-md p-3;
 }
